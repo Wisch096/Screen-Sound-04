@@ -16,6 +16,9 @@ namespace Screen_Sound_04.Modelos
         [JsonPropertyName("genre")]
         public string? Genero { get; set; }
         
+        [JsonPropertyName("key")]
+        public int Key { get; set; }
+        
         [JsonPropertyName("year")]
         public string? AnoString { get; set; }
 
